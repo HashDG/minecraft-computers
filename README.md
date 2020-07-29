@@ -7,9 +7,10 @@ And finally you can launch the game, and go in a minecraft world using the Schem
 
 ## 1. Fibonacci
 A compact computer made with an adder, two registers, and a sort of accumulator to manage output. The dashboard is three-parted:
--Manual Clock
--Automatic Clock
--Reset
+- Manual Clock
+- Automatic Clock
+- Reset
+
 The first enables the user to define the clock rate. Then the second enables an almost perfect defined clock rate. And the last is used to reset the whole computer.
 
 Note: The highest lamp on the output symbolizes overflow.
