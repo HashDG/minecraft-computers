@@ -14,3 +14,10 @@ A compact computer made with an adder, two registers, and a sort of accumulator 
 The first enables the user to define the clock rate. Then the second enables an almost perfect defined clock rate. And the last is used to reset the whole computer.
 
 Note: The highest lamp on the output symbolizes overflow.
+
+## 2. Character by character [polybius square](https://en.wikipedia.org/wiki/Polybius_square)
+A not so compact computer with a twenty-five cells RAM for storing the polybius square, an address and a data bus. Then connected to the bus, two computing cells, one for encrypting a character, the other one for decrypting those. The goal is to input a character, return the coordinates in the square and then be able to get back the character from the address.
+Characters are encoded on 2 bytes, address on 6 bits (3+3). For more docs about the computers, I recommend you to read in game the books available.
+
+Note: If you want to use it at its full potential you'll need to instantiate cells, one-after-one. For now only some are instantiated.
+
